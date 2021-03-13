@@ -1,9 +1,9 @@
-﻿using Entities.Abstract;
+﻿using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace DataAccess.Abstract
+namespace Core.DataAccess
 {
     //IEntity : IEntity olabilir veya implemente eden bir nesne olabilir
     //new() : new'lenebilir olmalı. IEntity newlenemeyeceği için onu devre dışı bıraktım.
